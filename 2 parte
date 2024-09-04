@@ -1,0 +1,14 @@
+function setup() {
+  createCanvas(400, 400);
+  background("purple");
+  
+}
+
+function draw() {
+  if (mouseIsPressed) {
+  stroke("black"); //cor da linha
+  fill("white"); //cor do fundo
+  rect(mouseX,mouseY,10,10); //criando o retangulo
+  
+}
+}
